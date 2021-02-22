@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using UndertaleModLib;
@@ -10,26 +9,6 @@ namespace CustomPaletteMod
 {
     class Program
     {
-        const string DefaultIni = @"[palette]
-name='MODERNUM'
-palette00='96'
-palette01='236'
-palette02='198'
-palette10='202'
-palette11='88'
-palette12='90'
-palette20='25'
-palette21='32'
-palette22='54'
-palette30='20'
-palette31='20'
-palette32='20'
-normal='0'
-bright='2'
-background='3'
-water='4'
-";
-
         static UndertaleData Data;
 
         private static void Main()
@@ -117,8 +96,6 @@ water='4'
             {
                 UndertaleIO.Write(stream, Data);
             }
-            Console.WriteLine("Writing palette.ini...");
-            File.WriteAllText(Path.GetDirectoryName(datawinpath) + Path.DirectorySeparatorChar + "palette.ini", DefaultIni);
             if (singleexe)
             {
                 FindDownwellExe(new DirectoryInfo(Path.GetDirectoryName(datawinpath)));
