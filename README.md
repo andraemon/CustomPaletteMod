@@ -1,10 +1,7 @@
-# Custom Controls For Downwell
+# Custom Palette Mod
 
-Downwell [Custom Controls Mod] repository.
+Custom Palette Mod repository.
 
-The mod itself can be found here https://github.com/nkrapivin/CustomControlsForDownwell/releases/latest
+Credit to nkrapivin for the installer code, and to krzys-h and co. for UndertaleModLib.
 
-UndertaleModLib by krzys-h and co.
-
-
-Have fun!!
+Thank you and enjoy!
