@@ -29,3 +29,5 @@ This mod adds a customizable palette to the game which is unlocked at 600000 cum
     - **2** - blue
   - **normal, bright, background, and water** - These four are just here to remind you of which x-value corresponds to which class of objects, they don't have any mechanical effect.
 
+## Contact
+Please contact me with any issues you may have! You can find me on Discord, where I'm exotico#5747.
