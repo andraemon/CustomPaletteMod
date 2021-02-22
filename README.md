@@ -17,7 +17,7 @@ This mod adds a customizable palette to the game which is unlocked at 600000 cum
 
 ## Palette File Entries
 - **name** - The name of the palette.
-- **palettexy** - A value between 0 and 255 inclusive. x determines what type of object this will change, while y determines whether this value represents red, green or blue.
+- **palettexy** - A value between 0 and 255 inclusive. **x** determines what type of object this will change, while **y** determines whether this value represents red, green or blue.
   - **x-values**
     - **0** - normal objects (bricks, the player, etc.)
     - **1** - bright objects (gems, dangerous enemies, etc.)
