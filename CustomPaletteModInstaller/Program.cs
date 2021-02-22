@@ -11,24 +11,24 @@ namespace CustomPaletteMod
     class Program
     {
         const string DefaultIni = @"[palette]
-            name='EXAMPLE PALETTE'
-            palette00='250'
-            palette01='250'
-            palette02='250'
-            palette10='250'
-            palette11='0'
-            palette12='0'
-            palette20='5'
-            palette21='5'
-            palette22='5'
-            palette30='0'
-            palette31='126'
-            palette32='250'
-            normal='0'
-            bright='2'
-            background='3'
-            water='4'
-            ";
+name='MODERNUM'
+palette00='96'
+palette01='236'
+palette02='198'
+palette10='202'
+palette11='88'
+palette12='90'
+palette20='25'
+palette21='32'
+palette22='54'
+palette30='20'
+palette31='20'
+palette32='20'
+normal='0'
+bright='2'
+background='3'
+water='4'
+";
 
         static UndertaleData Data;
 
