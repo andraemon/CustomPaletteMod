@@ -15,7 +15,7 @@ This mod adds a customizable palette to the game which is unlocked at 600000 cum
 - **Ctrl + R** - Randomizes all color values of the custom palette. Be warned: this will overwrite any color values you had previously specified in palette.ini.
 - **Ctrl + P** - Refreshes the custom palette based on changes made to palette.ini so you don't have to restart your game every time you want to make a minor change. You must save palette.ini prior to using this keybind—otherwise nothing will change.
 
-## palette.ini Entries
+## Palette File Entries
 - **name** - The name of the palette.
 - **palettexy** - A value between 0 and 255 inclusive. x determines what type of object this will change, while y determines whether this value represents red, green or blue.
   - **x-values**
